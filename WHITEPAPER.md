@@ -33,13 +33,13 @@ Please read on and join us on our quest for a fully decentralized future.
 
 # **Introduction**
 
-**W**elcome to Blockcore's white paper for its cutting-edge and open-source blockchain project. The aim of Blockcore is to create free and open-source solutions for modern decentralized societies with the vision to "decentralize everything". By providing the building blocks for decentralized societies, Blockcore's software can make existing centralized systems redundant. Decentralization in the context of Blockcore refers to distributing power, control, and authority away from centralized organizations, giving individuals and communities greater control over data, assets, and decision-making. Blockcore's vision aligns with the principles of Web5, which advocates for a more decentralized and user-centric internet.
+**W**elcome to Blockcore's white paper for its cutting-edge and open-source blockchain project. The aim of Blockcore is to create free and open-source solutions for modern decentralized societies with the vision to "decentralize everything". By providing the building blocks for decentralized societies, Blockcore's software can make existing centralized systems redundant. 
+
+Blockcore aims to empower individuals and communities by reducing the influence of centralized organizations over data, assets, and decision-making. This means shifting power, control, and authority from the center to the edges. Blockcore's vision aligns with the principles of Web5, which advocates for a more decentralized and user-centric internet.
 
 Blockcore’s team of experienced blockchain developers and engineers took this initiative with the mission of empowering users to build unique blockchain solutions using a wide range of software tools, including Block Explorer, Block Indexing, Block Analytics, Wallets, API Wallet Service, Atomic Swaps, Developer Tooling, and Documentation.
 
-The Blockcore’s platform offers a decentralized web node and decentralized identifiers, all designed to enhance the capabilities of the platform and to make it accessible to a wide range of users. Blockcore's objectives include continuing the development of the C# Stratis full node, maintaining the C# Bitcoin full node, supporting projects and teams using the underlying technology, extending the technology by building developer and user tools, providing a forum for developers and teams to collaborate and to improve the technology, and building relationships with potential sponsors and partners to boost the pace of development.
-
-Blockcore's guiding principles emphasize collaboration, contribution to open-source software, making it easy for everyone to contribute to the ecosystem, and encouraging projects to adopt Blockcore technology to strengthen the platform. We believe that our platform, Blockcore, can drive innovation and foster a collaborative environment for blockchain development. Committed to staying at the forefront of Bitcoin and blockchain technology through continuous development and improvements, let us endeavor together for what we can accomplish through Blockcore and blockchain technology.
+Blockcore's guiding principles emphasize collaboration, contribution to open-source software, making it easy for everyone to contribute to the ecosystem, and encouraging projects to adopt Blockcore technology to strengthen the platform. We believe that our platform can drive innovation and foster a collaborative environment for blockchain and decentralized software. Committed to staying at the forefront of Bitcoin and blockchain technology through continuous development and improvements, let us endeavor together for what we can accomplish through Blockcore and blockchain technology.
 
 # **Architecture**
 
@@ -54,7 +54,7 @@ The indexer is responsible for building a queryable database of the history of t
 
 Blockcore also offers different software options for users, including a non-custodial wallet that runs in the web browser and is distributed on add-ons stores for easy discovery, installation, and automatic updates. This extension relies on the indexer to access blockchain data. The Blockcore Hub is a full-node wallet, which is the optimal wallet for advanced users performing Proof-of-Stake operations, as it downloads the entire blockchain for improved privacy.
 
-Blockcore also offers a tipping-bot software called Blockcore Tipbot, which allows users to give and receive tips in the form of coins and tokens easily. The tipbot is a custodial service, meaning that the keys do not belong to the individual users, so it is only recommended for smaller amounts. Users can withdraw from their tipbot balance into Blockcore Hub or Blockcore Extension wallets.
+Blockcore also offers a tipping-bot software called Blockcore Tipbot, which allows users to give and receive tips in the form of coins and tokens easily. The tipbot is a custodial service, meaning that the keys do not belong to the individual users, so it is only recommended for smaller amounts. Users can withdraw from their tipbot balance into Blockcore Hub or Blockcore Wallet extension.
 
 Additionally, Blockcore offers a server software called Blockcore Vault, which allows for distributed data storage and sharing. The software implements open standards for decentralized identity (DID) and can store a user's verifiable credentials, including private direct messages, NFTs, receipts from purchases, favorite music, videos, and more. The software supports both public (unencrypted) and private (encrypted) information to be hosted.
 
@@ -65,14 +65,11 @@ Blockcore, a novel approach to addressing the scalability issue in cryptocurrenc
 
 1. Configurable private blockchains: Blockcore allows organizations to create and to manage their own private blockchains, tailoring block sizes to suit their specific needs and available resources. This customization enables businesses to optimize their blockchain's performance without being constrained by a single, global blockchain.
 
-2. Host chain and dedicated ledgers: Blockcore operates on a host chain from which businesses can deploy their own ledgers based on their specific requirements. This structure provides the versatility of an extensive 2.0 platform combined with the full control of a private chain, which is secured by the host blockchain but managed by the owning organization.
+2. Host chain and dedicated ledgers: Blockcore operates on a host chain from which businesses can deploy their own ledgers based on their specific requirements.
 
 3. Proof-of-Stake consensus: Blockcore employs a Proof-of-Stake (PoS) consensus mechanism, aligning the interests of end-users (businesses) and network security providers (full nodes). This allows businesses to run their own nodes without the overheads associated with specialized mining hardware, reducing the barriers to entry and preventing centralization of mining power.
 
-4. Anti-bloat measures: To ensure the main chain remains lightweight and efficient, Blockcore implements a series of measures to combat bloating. This ensures that the host chain's primary purpose is to secure child chains, keeping the overall system streamlined and manageable.
-
-In summary, Blockcore addresses the scalability and the centralization issues faced by traditional blockchain systems like Bitcoin through the use of configurable private blockchains, a host chain with dedicated ledgers, a PoS consensus mechanism, and anti-bloat measures. These features make Blockcore an attractive option for businesses and organizations seeking a more efficient, secure, and adaptable blockchain solution.
-
+In summary, Blockcore addresses the scalability and the centralization issues faced by traditional blockchain systems like Bitcoin through the use of configurable private blockchains, a host chain with dedicated ledgers, a PoS consensus mechanism and more. These features make Blockcore an attractive option for businesses and organizations seeking a more efficient, secure, and adaptable blockchain solution.
 
 # **Technical Details**
 
@@ -80,9 +77,7 @@ Blockcore is a versatile and flexible platform for building Layer 1 consensus ne
 
 Blockcore is a blockchain platform that supports both Proof of Work (PoW) and Proof of Stake (PoS) consensus mechanisms. PoW is used to mine new blocks during the initial stage of the network, while PoS is used to validate new blocks and to secure the network over time. In Blockcore, PoW and PoS are combined in a hybrid consensus mechanism, which enables the network to benefit from the advantages of both approaches. The PoW component of the consensus mechanism is used to create new blocks, while the PoS component is used to validate the new blocks and to secure the network.
 
-In the PoW component, miners compete to solve a cryptographic puzzle to create new blocks. The difficulty of the puzzle is adjusted dynamically to maintain a consistent block time. The PoW component is designed as ASIC-resistant, which ensures that miners with specialized hardware do not gain an unfair advantage over other miners.
-
-In the PoS component, validators are chosen based on the amount of tokens they hold and the duration of time they are willing to stake their tokens. Validators are responsible for validating new blocks and securing the network. In PoS, the more tokens a validator holds and stakes, the higher the chance of being chosen as a validator. Blockcore's PoS mechanism uses a variant of the delegated proof-of-stake (DPoS) approach, in which validators are elected by token holders through a voting process. The DPoS approach ensures the network is controlled by a small group of trusted validators increasing the network's security and the scalability.
+In the PoW component, miners compete to solve a cryptographic puzzle to create new blocks. The difficulty of the puzzle is adjusted dynamically to maintain a consistent block time.
 
 Blockcore's blockchain architecture is designed as modular and flexible, allowing developers to customize the consensus mechanism to meet the specific needs of their use case. The platform provides a range of APIs and SDKs that enable developers to build and to deploy blockchain applications easily. With its hybrid PoW/PoS consensus mechanism, Blockcore provides a secure and scalable network for developers to build blockchain applications while maintaining an alternative C# Bitcoin implementation.
 
