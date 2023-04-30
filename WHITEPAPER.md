@@ -9,6 +9,7 @@
 </p>
 
 ## Table of contents
+*   [Why?](#why)
 *   [Introduction](#introduction)
 *   [Architecture](#architecture)
 *   [Scalability](#scalability)
