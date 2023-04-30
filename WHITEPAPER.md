@@ -21,6 +21,16 @@
 *   [References](#references)
 
 
+# **Why?**
+
+What is the purpose of doing anything? It is to make things better than they are. To eliminate any barriers and problems that exist. That is our motivation and perhaps yours too.
+
+Our vision is to decentralize everything, because we think that the problems that arise from centralized authority and governance should be prevented whenever possible. You should be in control of your digital life, your data and your privacy.
+
+Software has enhanced human lives for decades and will continue to do so for decades more. We are on a journey towards a better future and we want to contribute to it.
+
+Please read on and join us on our quest for a fully decentralized future.
+
 # **Introduction**
 
 **W**elcome to Blockcore's white paper for its cutting-edge and open-source blockchain project. The aim of Blockcore is to create free and open-source solutions for modern decentralized societies with the vision to "decentralize everything". By providing the building blocks for decentralized societies, Blockcore's software can make existing centralized systems redundant. Decentralization in the context of Blockcore refers to distributing power, control, and authority away from centralized organizations, giving individuals and communities greater control over data, assets, and decision-making. Blockcore's vision aligns with the principles of Web5, which advocates for a more decentralized and user-centric internet.
